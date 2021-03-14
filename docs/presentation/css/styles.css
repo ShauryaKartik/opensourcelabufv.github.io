@@ -3,3 +3,33 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+h1 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 101px;
+    color: #19222A;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #19222A;
+}
+
+.card {
+    border: 1px solid #A0B6C2;
+    box-sizing: border-box;
+    margin: 50px 50px;
+    padding: 2px 16px;
+    float: left;
+    width: 25%;
+    height: 320px;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      display: block;
+    }
+  }
