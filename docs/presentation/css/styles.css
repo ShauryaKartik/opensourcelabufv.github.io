@@ -49,6 +49,6 @@ h2 {
     }
 
     .card {
-        width: 85%;
+        width: auto;
     }
   }
