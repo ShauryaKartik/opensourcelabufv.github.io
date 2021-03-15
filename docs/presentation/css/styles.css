@@ -2,10 +2,13 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFE1A8;
 }
 
-.pcont {
-  display: flex;
+h2 {
+  font-weight: 800;
+  text-align: center;
+  font-size: 3vw;
 }
 
 .principles {
@@ -18,15 +21,24 @@ body {
   margin: 10px 10px;
   border-radius: 10px;
   width: 25%;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   flex: 1;
 }
 
 .principles-card img {
-  width: 100px;
+  width: 10vw;
+  color: #19222A;
+}
+
+.principles-card p {
+  color: #19222A;
+  font-weight: 700;
+  font-size: 2vw;
 }
 
 #share-icon {
-  width: 80px;
+  width: 8vw;
 }
 
 .principles-card p {
