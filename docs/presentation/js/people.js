@@ -12,6 +12,3 @@ let members = [
         "social": ["https://github.com/nicholasbarbosa", "https://www.linkedin.com/in/nicholas-barbosa-9200a1197/", "https://www.instagram.com/barbosanicholas/"]
     }
 ]
-
-members.forEach(member => {
-});

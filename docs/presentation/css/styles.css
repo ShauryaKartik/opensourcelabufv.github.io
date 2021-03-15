@@ -1,141 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
-button {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-
-
-.text {
-    color: white;
-    font-size: 1vw;
-}
-
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
-    margin: 0px 5px;
-}
-
-p {
-    text-align: justify;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Source+Sans+Pro:wght@400;700&display=swap");
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    display: block;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-    font-weight: 600;
-    font-size: 60px;
-    color: #19222A;
-    text-align: center;
-
-    margin: 0px 0px;
+.pcont {
+  display: flex;
 }
 
-h2 {
-    font-size: 40px;
-    line-height: 50px;
-    color: #19222A;
-    text-align: center;
+.principles {
+  display: flex;
 }
 
-.col {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+.principles-card {
+  background-color: #C9CBA3;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  width: 25%;
+  flex: 1;
 }
 
-.card {
-    border: 1px solid #A0B6C2;
-    width: 25%;
-    padding: 2px 16px;
-    margin: 10px 10px;
-
-    flex: 1;
+.principles-card img {
+  width: 100px;
 }
 
-.column {
-    flex-direction: column;
-    flex: 1;
+#share-icon {
+  width: 80px;
 }
 
-#members {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.avatar {
-    border-radius: 5px;
-    max-height: 200px;
-    flex: 1;
-}
-
-.member-card {
-    border-radius: 10px;
-    background-color: black;
-    width: 25%;
-    padding: 10px 20px 10px 10px;
-    margin: 10px 10px;
-    text-align: center;
-    max-width: 450px;
-
-    flex: 1;
-    display: flex;
-}
-
-.member-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.image {
-    flex: 1;
-    position: relative;
-}
-
-.image img {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-    .col {
-        flex-direction: column;
-    }
-
-    .card {
-        width: auto;
-    }
-}
-
-@media (max-width: 800px) {
-    .avatar {
-        width: 200px;
-    }
-
-    .member-card {
-        flex-direction: column;
-        width: 85%;
-    }
-
-    .text {
-        font-size: 15px;
-    }
-
-    #members {
-        flex-direction: column;
-    }
+.principles-card p {
+  text-align: center;
 }
