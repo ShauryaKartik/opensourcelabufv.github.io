@@ -35,6 +35,7 @@ h2 {
 
 p {
   font-size: 1.2vw;
+  font-weight: 400;
 }
 
 .start {
@@ -66,4 +67,43 @@ p {
 
 .card > p {
   color: #f9f9f9;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 720;
+}
+
+.principio {
+  padding: 10px;
+  background: #f9f9f9;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.principio > img {
+  width: 100px;
+  height: 100px;
+}
+
+.wh-card {
+  padding-left: 20px;
+  background-color: #f9f9f9;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
+
+#study {
+  background: #3F37C9;
+}
+
+#share {
+  background: #3F37C9;
 }
