@@ -137,11 +137,33 @@ span {
 }
 
 .material-icons.md-48 { font-size: 48px; }
+
 #project:hover {
   box-shadow: inset 0 0 5px lightgray;
 }
+
 #project:hover > .material-icons {
   color: #3F37C9;
+}
+
+#members > .material-icons {
+  color: #f9f9f9
+}
+
+.membros {
+  display: flex;
+}
+
+.membros > a {
+  width: 25%;
+}
+
+.membros > a > img {
+  float: left;
+  object-fit: cover;
+  object-position: center;
+  max-width:100%;
+  max-height:100%;
 }
 
 @media (max-width:600px) {
