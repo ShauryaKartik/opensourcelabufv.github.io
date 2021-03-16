@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Source+Sans+Pro:wght@400;700&display=swap");
-
 header {
-  background-color: #f9f9f9;
+  background-color: FFE1A8;
   padding: 15px;
+  align-items: center;
+  text-align: center;
 }
 
 a {
@@ -26,6 +27,7 @@ body {
   display: grid;
   margin: 0px;
   padding: 0px;
+  background-color: #FFE1A8;
 }
 
 h1 {
