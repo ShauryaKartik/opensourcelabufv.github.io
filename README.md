@@ -10,4 +10,6 @@ Este projeto é feito usando apenas HTML e CSS.
 
 ## Contribuindo
 
-Você pode realizar alterações no código fazendo um fork do projeto e depois subemtendo como pull request. Além disso, reportar bugs na página Issues ajuda muito o nosso trabalho.
+Você pode realizar alterações no código fazendo um fork do projeto e depois submetendo como pull request. O branch ``main`` contém a versão de desenvolvimento, já o branch ``gh-pages`` contém a versão atual do site em produção.
+
+Você também pode fazer contribuições reportando bugs ou erros na página Issues.
