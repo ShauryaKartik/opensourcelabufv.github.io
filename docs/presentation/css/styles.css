@@ -24,17 +24,17 @@ body {
 
 h1 {
   font-weight: 800;
-  font-size: 3vw;
+  font-size: 4.8vw;
 }
 
 h2 {
   font-weight: 800;
   text-align: center;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 p {
-  font-size: 1.2vw;
+  font-size: 3vw;
   font-weight: 400;
 }
 
@@ -53,7 +53,7 @@ p {
 }
 
 .card {
-  padding-left: 20px;
+  padding: 20px;
   background-color: black;
 
   display: flex;
@@ -86,12 +86,12 @@ p {
 }
 
 .principio > img {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .wh-card {
-  padding-left: 20px;
+  padding: 20px;
   background-color: #f9f9f9;
 
   display: flex;
@@ -104,6 +104,18 @@ p {
   background: #3F37C9;
 }
 
+#study > p {
+  color: #f9f9f9;
+}
+
 #share {
   background: #3F37C9;
+}
+
+#share > p {
+  color: #f9f9f9;
+}
+
+#share > img {
+  width: 50%;
 }
