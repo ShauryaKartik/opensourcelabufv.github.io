@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+}
+
 img {
   width: 100%;
   padding: 0;
@@ -118,4 +122,25 @@ p {
 
 #share > img {
   width: 50%;
+}
+
+span {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.material-icons {
+  transform-origin: center;
+  transform: rotateZ(-45deg);
+}
+
+.material-icons.md-48 { font-size: 48px; }
+
+#project:hover > .material-icons {
+  color: #3F37C9;
+}
+
+@media (max-width:600px) {
+  .material-icons.md-48 { font-size: 24px; }
 }
