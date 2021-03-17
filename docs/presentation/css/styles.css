@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Source+Sans+Pro:wght@400;700&display=swap");
+
+header {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+a:visited {
+  color: black;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 4.8vw;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3.4vw;
+}
+
+p {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.start {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  min-width: 720;
+}
+
+.tech {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../content/background.jpg');
+}
+
+.card {
+  padding: 20px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card > h1 {
+  color: #f9f9f9;
+}
+
+.card > h2 {
+  color: #f9f9f9;
+}
+
+.card > p {
+  color: #f9f9f9;
+}
+
+.squares {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  height: 100%;
+
+  align-items: center;
+}
+
+.principio {
+  padding: 10px;
+  background: #f9f9f9;
+  align-items: center;
+
+  display: flex;
+}
+
+.principio > img {
+  max-width: 4vw;
+  max-height: 4vw;
+  margin-right: 20px;
+  margin-left: 5vw;
+}
+
+.wh-card {
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: relative;
+  transition: all 0.6s ease;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
+
+#share > img {
+  width: 50%;
+  padding-top: 10px;
+}
+
+span {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.material-icons {
+  transform-origin: center;
+  transform: rotateZ(-45deg);
+}
+
+.material-icons.md-48 { font-size: 48px; }
+
+.wh-card:hover .material-icons {
+  color: #f9f9f9;
+}
+
+#members > .material-icons {
+  color: #f9f9f9
+}
+
+.membros {
+  display: flex;
+}
+
+a > .wh-card:hover {
+  background-color: #3F37C9;
+}
+
+a > .wh-card:hover > h1 {
+  color: #f9f9f9;
+}
+
+a > .wh-card:hover > h2 {
+  color: #f9f9f9;
+}
+
+a > .wh-card:hover > p {
+  color: #f9f9f9;
+}
+
+.membros > a {
+  width: 25%;
+}
+
+.membros > a > img {
+  float: left;
+  object-fit: cover;
+  object-position: center;
+  max-width:100%;
+  max-height:100%;
+}
+
+.cfa {
+  display: flex;
+}
+
+#connect {
+  width: 75%;
+}
+
+#call.card {
+  background-color: #3F37C9;
+  width: 25%;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials img{
+  width: 7vw;
+}
+
+.socials  a {
+  width: 50%;
+}
+
+#discord {
+  flex-direction: row;
+  align-items: center;
+}
+
+#git {
+  flex-direction: row;
+  align-items: center;
+}
+
+
+@media (max-width:600px) {
+  .material-icons.md-48 { font-size: 24px; }
+}
