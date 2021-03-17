@@ -152,6 +152,10 @@ a > .wh-card:hover > h1 {
   color: #f9f9f9;
 }
 
+a > .wh-card:hover > h2 {
+  color: #f9f9f9;
+}
+
 a > .wh-card:hover > p {
   color: #f9f9f9;
 }
