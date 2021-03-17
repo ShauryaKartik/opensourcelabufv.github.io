@@ -35,12 +35,11 @@ h1 {
 
 h2 {
   font-weight: 800;
-  text-align: center;
-  font-size: 4vw;
+  font-size: 3.4vw;
 }
 
 p {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 400;
 }
 
@@ -68,6 +67,10 @@ p {
 }
 
 .card > h1 {
+  color: #f9f9f9;
+}
+
+.card > h2 {
   color: #f9f9f9;
 }
 
