@@ -80,8 +80,10 @@ p {
 
 .squares {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-width: 720;
+  grid-template-rows: repeat(4, 1fr);
+  height: 100%;
+
+  align-items: center;
 }
 
 .principio {
@@ -90,13 +92,13 @@ p {
   align-items: center;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .principio > img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 4vw;
+  max-height: 4vw;
+  margin-right: 20px;
+  margin-left: 5vw;
 }
 
 .wh-card {
@@ -110,22 +112,6 @@ p {
   flex-direction: column;
   justify-content: center;
   border: 1px solid lightgray;
-}
-
-#study {
-  background: #3F37C9;
-}
-
-#study > p {
-  color: #f9f9f9;
-}
-
-#share {
-  background: #3F37C9;
-}
-
-#share > p {
-  color: #f9f9f9;
 }
 
 #share > img {
