@@ -99,6 +99,9 @@ p {
 .wh-card {
   padding: 20px;
   background-color: #f9f9f9;
+  position: relative;
+  transition: all 0.6s ease;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -140,12 +143,8 @@ span {
 
 .material-icons.md-48 { font-size: 48px; }
 
-#project:hover {
-  box-shadow: inset 0 0 5px lightgray;
-}
-
 a:hover .material-icons {
-  color: #3F37C9;
+  color: #f9f9f9;
 }
 
 #members > .material-icons {
@@ -157,7 +156,15 @@ a:hover .material-icons {
 }
 
 a > .wh-card:hover {
-  box-shadow: inset 0 0 5px lightgray;
+  background-color: #3F37C9;
+}
+
+a > .wh-card:hover > h1 {
+  color: #f9f9f9;
+}
+
+a > .wh-card:hover > p {
+  color: #f9f9f9;
 }
 
 .membros > a {
