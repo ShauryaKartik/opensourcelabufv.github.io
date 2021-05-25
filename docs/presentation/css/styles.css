@@ -228,11 +228,4 @@ a > .wh-card:hover > p {
   #wh-card {
     flex: 1;
   }
-
-  #socials {
-    grid-row: 7;
-    grid-column: 1 / 3;
-    display: flex;
-    flex-direction: column;
-  }
 }
